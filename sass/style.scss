@@ -253,6 +253,7 @@ figure {
 	background-size: cover;
 	position: relative;
 	background-image: url(/images/wedding01.jpeg);
+	background-size: cover;
 
 	@media screen and (max-width: $screen-sm) {
 		height: inherit;
