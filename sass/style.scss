@@ -253,14 +253,12 @@ figure {
 	background-size: cover;
 	position: relative;
 	background-image: url(/images/wedding01.jpeg);
-	background-position: center center;
-	background-repeat: no-repeat;
 
 	@media screen and (max-width: $screen-sm) {
 		height: inherit;
 		padding: 3em 0;
 		background-position: center top;
-		background-repeat: no-repeat;
+		background-size: cover;
 		background-image: url(/images/wedding02-heading.jpeg);
 	}
 	.display-t{
